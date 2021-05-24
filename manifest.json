@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "LINKEDIN Grabber",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "GRABBER",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab",
+        "<all_urls>"
+    ]
+}
