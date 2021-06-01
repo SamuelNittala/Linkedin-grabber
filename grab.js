@@ -8,9 +8,9 @@ document.getElementById("grab").addEventListener('click', () => {
         }
         //linkedin-regex
         let link = document.URL;
-        let regex= /^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile)/gm
+        let regexx= /^(http(s)?:\/\/)?([\w]+\.)?linkedin\.com\/(pub|in|profile)/gm
         //check whether the url is linkedin
-        if (regex.test(link)) {
+        if (regexx.test(link)) {
             //xpaths for username and company
             let username = "/html/body/div[6]/div[3]/div/div/div/div/div[2]/div/div/main/div/section[1]/div[2]/div[2]/div/div[1]/h1"
             let company = "/html/body/div[6]/div[3]/div/div/div/div/div[2]/div/div/main/div/section[1]/div[2]/div[2]/ul/li[1]/a/h2/div"
